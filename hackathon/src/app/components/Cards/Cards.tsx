@@ -14,7 +14,7 @@ const Cards = () => {
       </p>
      
       <div className="grid grid-cols-4 gap-1 items-start">
-  {/* CardMan Image */}
+  
   <div className="col-span-2 row-span-2 flex">
     <Image 
       src={CardMan} 
@@ -25,7 +25,7 @@ const Cards = () => {
     />
   </div>
 
-  {/* CardWomen Image */}
+ 
   <div className="col-span-1 row-span-2 flex">
     <Image 
       src={CardWomen} 
@@ -36,7 +36,6 @@ const Cards = () => {
     />
   </div>
 
-  {/* CardWomen1 Image */}
   <div className="col-span-1 flex">
     <Image 
       src={CardWomen1} 
@@ -47,7 +46,7 @@ const Cards = () => {
     />
   </div>
 
-  {/* CardKids Image */}
+ 
   <div className="col-span-1 flex">
     <Image 
       src={CardKids} 

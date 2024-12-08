@@ -7,7 +7,7 @@ export default function Banner () {
   return (
     <div className="w-full h-auto absolute top-[3810px]">
       <div className="w-full max-w-[1440px] flex flex-col lg:flex-row gap-[30px] px-4 lg:px-0">
-        {/* Image Section */}
+        
         <div className="relative w-full lg:w-[707px] h-[400px] lg:h-[682px] flex justify-center">
           <Image
             src={Couples}
@@ -17,7 +17,7 @@ export default function Banner () {
           />
         </div>
 
-        {/* Text Section */}
+        
         <div className="w-full lg:w-[573px] h-auto flex flex-col gap-[20px] justify-center items-center lg:items-start text-center lg:text-left mt-[20px] lg:mt-0">
           <h5 className="text-[14px] lg:text-[16px] font-Montserrat font-bold leading-[24px] text-[#BDBDBD]">
             SUMMER 2020

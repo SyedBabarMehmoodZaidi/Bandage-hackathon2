@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitterSquare, FaInstagram, FaLinkedin } from "react-icon
 const TopHeader = () => {
   return (
     <div className="hidden md:flex items-center justify-between w-full h-[46px] bg-[#252B42] text-white px-10">
-      {/* Left Section */}
+     
       <div className="flex items-center gap-10">
         <div className="flex items-center gap-2">
           <FaPhone />
@@ -19,12 +19,12 @@ const TopHeader = () => {
         </div>
       </div>
 
-      {/* Center Section */}
+      
       <div className="font-bold">
         Follow Us and get a chance to win 80% off
       </div>
 
-      {/* Right Section */}
+      
       <div className="flex items-center gap-2">
         <div className='font-bold'>
           Follow Us :

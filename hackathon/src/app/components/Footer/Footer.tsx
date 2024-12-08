@@ -5,9 +5,9 @@ const Footer = () => {
     <div>
        <footer className="bg-gray-50 text-gray-700">
       <div className="container mx-auto px-6 py-10">
-        {/* Top Section */}
+        
         <div className="flex flex-wrap justify-between items-start space-y-6 md:space-y-0">
-          {/* Logo and Social Icons */}
+          
           <div>
             <h2 className="text-2xl font-bold text-gray-800">Bandage</h2>
             <div className="flex space-x-4 mt-4">
@@ -25,7 +25,7 @@ const Footer = () => {
 
           {/* Links Section */}
           <div className="flex flex-wrap space-x-16">
-            {/* Column 1 */}
+           
             <div>
               <h3 className="font-semibold text-gray-800">Company Info</h3>
               <ul className="mt-4 space-y-2">
@@ -35,7 +35,7 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-blue-500">Blog</a></li>
               </ul>
             </div>
-            {/* Column 2 */}
+       
             <div>
               <h3 className="font-semibold text-gray-800">Legal</h3>
               <ul className="mt-4 space-y-2">
@@ -45,7 +45,7 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-blue-500">Blog</a></li>
               </ul>
             </div>
-            {/* Column 3 */}
+         
             <div>
               <h3 className="font-semibold text-gray-800">Features</h3>
               <ul className="mt-4 space-y-2">
@@ -55,7 +55,7 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-blue-500">Unlimited Support</a></li>
               </ul>
             </div>
-            {/* Column 4 */}
+         
             <div>
               <h3 className="font-semibold text-gray-800">Resources</h3>
               <ul className="mt-4 space-y-2">

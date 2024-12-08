@@ -33,7 +33,7 @@ const FeaturedPosts = () => {
 
   return (
     <div className="bg-white py-10 mt-[1650px]">
-      {/* Section Header */}
+      
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-gray-800">Featured Posts</h2>
         <p className="text-gray-500">
@@ -41,11 +41,11 @@ const FeaturedPosts = () => {
         </p>
       </div>
 
-      {/* Posts Grid */}
+     
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 max-w-5xl mx-auto">
         {posts.map((post) => (
           <div key={post.id} className="bg-white shadow-md rounded-lg overflow-hidden">
-            {/* Post Image */}
+           
             <div className="relative">
               <img src={post.img} alt={post.title} className="w-full h-40 object-cover" />
               <span className="absolute top-2 left-2 bg-red-500 text-white text-sm font-bold px-2 py-1 rounded">
@@ -53,7 +53,7 @@ const FeaturedPosts = () => {
               </span>
             </div>
 
-            {/* Post Content */}
+           
             <div className="p-3">
               <h3 className="text-md font-semibold text-gray-800">{post.title}</h3>
               <p className="text-gray-600 text-sm mt-2">{post.description}</p>

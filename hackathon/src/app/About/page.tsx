@@ -3,8 +3,8 @@ import Image from "next/image";
 import girl from "/public/Images/hero-2-bg-shape-cover.png";
 // import bg from "@/images/media bg-cover.png";
 import facebookIcon from "/public/Images/facebook.png";
-import instagramIcon from "/public/Images/ant-design_instagram-outlined.png";
-import twittericon from "/public/Images/ant-design_twitter-outlined.png";
+import instagramIcon from "/public/Images/instagram.png";
+import twittericon from "/public/Images/twitter.png";
 import user1 from "/public/Images/team-1-user-1.jpg";
 import user2 from "/public/Images/team-1-user-2.jpg";
 import user3 from "/public/Images/team-1-user-3.jpg";
@@ -15,6 +15,7 @@ import cm4 from "/public/Images/fa-brands-4.png";
 import cm5 from "/public/Images/fa-brands-5.png";
 import cm6 from "/public/Images/fa-brands-6.png";
 import girl2 from "/public/Images/unsplash_vjMgqUkS8q8.png"
+import Footer from "../components/Footer/Footer";
 
 export default function AboutUs() {
   return (
@@ -341,6 +342,8 @@ export default function AboutUs() {
             </section>
         </footer>
       </div>
+    
+      <Footer />
     </div>
   );
 }

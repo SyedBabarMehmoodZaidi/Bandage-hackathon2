@@ -21,8 +21,8 @@ import pic18 from "/public/Images/product-cover-5 (17).png";
 import pic19 from "/public/Images/product-cover-5 (18).png";
 import pic20 from "/public/Images/product-cover-5 (19).png";
 import fb from "/public/Images/facebook.png";
-import instagram from "/public/Images/ant-design_instagram-outlined.png";
-import twitter from "/public/Images/ant-design_twitter-outlined.png"
+import instagram from "/public/Images/instagram.png";
+import twitter from "/public/Images/twitter.png"
 
 
 export default function () {

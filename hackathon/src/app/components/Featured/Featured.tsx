@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 
 const FeaturedPosts = () => {
   const posts = [
@@ -71,6 +72,8 @@ const FeaturedPosts = () => {
           </div>
         ))}
       </div>
+
+      <Footer />
     </div>
   );
 };

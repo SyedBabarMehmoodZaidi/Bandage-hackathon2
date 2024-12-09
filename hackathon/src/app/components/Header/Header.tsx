@@ -4,6 +4,7 @@ import { BsSearch } from 'react-icons/bs'
 import { FiHeart } from 'react-icons/fi'
 import { IoCartOutline } from "react-icons/io5"
 import { HiOutlineMenu } from 'react-icons/hi'
+import Link from 'next/link'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -24,12 +25,12 @@ const Header = () => {
           {/* Menu Items - Desktop View */}
           <div className='hidden sm:flex justify-center items-center gap-8'>
             <ul className='flex gap-8'>
-              <li>Home</li>
-              <li>Shop</li>
-              <li>About</li>
-              <li>Blog</li>
-              <li>Contact</li>
-              <li>Pages</li>
+              <li><Link href="/"> Home </Link></li>
+              <li><Link href="/Shop">Shop</Link></li>
+              <li><Link href="/About">About</Link></li>
+              <li><Link href="/Blog">Blog</Link></li>
+              <li><Link href="/Contact">Contact</Link></li>
+              <li><Link href="/Pages">Pages</Link></li>
             </ul>
           </div>
 

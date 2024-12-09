@@ -7,9 +7,12 @@ import Banner from './components/Banner2/Banner'
 import FeaturedPosts from './components/Featured/Featured'
 import Hero from './components/Hero/Hero'
 
+
+
 const page = () => {
   return (
     <div>
+      
       <Hero />
       <Cards />
       <Products />
